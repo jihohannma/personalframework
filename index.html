@@ -17,7 +17,10 @@
 
     <header class="site-header">
         <div class="site-id">
-            <h1><a href="#">My Framework</a></h1>
+            <div class="logo">
+                <a href="index.html"><img src="img/quick hand-drawing logo.png" alt="quick logo"></a>
+            </div>
+            <h1 class="hide-visually"><a href="#">My Framework</a></h1>
         </div>
         <nav class="site-nav">
             <ul>
@@ -33,113 +36,16 @@
             <div class="container">
                 <h1>Jiho's Personal Framework 2021</h1>
                 <p>This is a simple, single page website framework, built with SASS.</p>
-                <a href="#typography" class="button">Go to Typography</a>
+                <a href="#section01" class="button">Go to Section 1</a>
+                <a href="#section02" class="button">Go to Section 2</a>
+                <a href="#section03" class="button">Go to Section 3</a>
             </div>
         </section>
 
-        <section id="typography">
+
+        <section id="section01">
 
             <div class="container">
-
-                <h2 class="section-heading">TYPOGRAPHY</h2>
-
-                <h1>This is a Heading 1</h1>
-
-                <h2>This is a Heading 2</h2>
-
-                <h3>This is a Heading 3</h3>
-
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore eveniet consequatur soluta amet commodi accusantium necessitatibus. Possimus porro facere doloribus minus eum iure a, optio ex dolor quidem tenetur unde rem architecto, earum sit aspernatur blanditiis voluptatibus, aut voluptatem. Unde necessitatibus illum recusandae sit suscipit, harum laboriosam autem adipisci consectetur.</p>
-
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore eveniet consequatur soluta amet commodi accusantium necessitatibus. Possimus porro facere doloribus minus eum iure a, optio ex dolor quidem tenetur unde rem architecto, earum sit aspernatur blanditiis voluptatibus, aut voluptatem. Unde necessitatibus illum recusandae sit suscipit, harum laboriosam autem adipisci consectetur.</p>
-
-                <hr />
-
-                <h1 class="headline">This is a Headline</h1>
-                <h2 class="subheadline">This is a subheadline</h2>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus aperiam, harum labore excepturi mollitia beatae dolorem iste, vero sunt iusto tempora quidem reprehenderit illo esse deserunt nisi explicabo laborum repudiandae!</p>
-                <a href="#" class="button">Default Button</a>
-
-                <hr />
-
-                <img src="http://via.placeholder.com/2000x1000" width="2000" height="1000" alt="placeholder">
-            </div>
-
-        </section>
-
-        <section id="layout">
-
-            <div class="container">
-               
-                <h2 class="section-heading">Layout</h2>
-
-                <div class="demo">
-
-                    <div class="row">
-                        <div class="one-whole">one-whole</div>
-                    </div>
-
-                    <div class="row">
-                        <div class="one-half">one-half</div>
-                        <div class="one-half">one-half</div>
-                    </div>
-
-                    <div class="row">
-                        <div class="one-third">one-third</div>
-                        <div class="one-third">one-third</div>
-                        <div class="one-third">one-third</div>
-                    </div>
-
-                    <div class="row">
-                        <div class="one-third">one-third</div>
-                        <div class="two-thirds">two-thirds</div>  
-                    </div>
-
-                    <div class="row">
-                        <div class="one-fourth">one-fourth</div>
-                        <div class="one-fourth">one-fourth</div>
-                        <div class="one-fourth">one-fourth</div>
-                        <div class="one-fourth">one-fourth</div>
-                    </div>
-
-                    <div class="row">
-                        <div class="one-fourth">one-fourth</div>
-                        <div class="three-fourths">three-fourths</div>
-                    </div>
-
-                    <div class="row">
-                        <div class="three-fourths push-one-fourth">three-fourths.push-one-fourth</div>
-                    </div>
-
-                    <div class="row">
-                        <div class="push-one-fourth">push-one-fourth</div>
-                    </div>
-
-                    <div class="row">
-                        <div class="push-one-third">push-one-third</div>
-                    </div>
-
-                    <div class="row">
-                        <div class="push-one-half">push-one-half</div>
-                    </div>
-
-                    <div class="row">
-                        <div class="one-half centered">one-half centered</div>
-                    </div>
-
-                    <div class="row">
-                        <div class="two-thirds centered">two-thirds centered</div>
-                    </div>
-
-                    <div class="row centered">
-                        <div>.row .centered child</div>
-                        <div>.row .centered child</div>
-                    </div>
-
-                </div>
-
-                <hr />
-
                 <div class="row">
                     <div class="one-half">
                         <img src="https://via.placeholder.com/1600x1200" alt="placeholder">
@@ -151,6 +57,12 @@
                     </div>
                 </div>
 
+            </div>
+
+        </section>
+
+        <section id="section02">
+            <div class="container">
                 <div class="row swapped">
                     <div class="one-half">
                         <img src="https://via.placeholder.com/1600x1200" alt="placeholder">
@@ -161,7 +73,11 @@
                         <a href="#" class="button">button</a>
                     </div>
                 </div>
+            </div>
+        </section>
 
+        <section id="section03">
+            <div class="container">
                 <div class="row stacked">
                     <div class="one-half">
                         <img src="https://via.placeholder.com/1600x1200" alt="placeholder">
@@ -172,20 +88,7 @@
                         <a href="#" class="button">button</a>
                     </div>
                 </div>
-
-                <hr />
-
-                <div class="row align-top">
-                    <div class="one-fourth">
-                        <h3>Heading 3</h3>
-                    </div>
-                    <div class="three-fourths">
-                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corporis, atque numquam. Ex magni obcaecati ad illo amet, praesentium enim ducimus, magnam voluptas cumque itaque officiis harum adipisci exercitationem veniam dicta iure est hic aut consequatur quasi. Modi doloribus nemo tenetur sed voluptates natus, quia illo voluptatibus necessitatibus eveniet odit deleniti?</p>
-                    </div>
-                </div>
-
             </div>
-
         </section>
 
     </main>
